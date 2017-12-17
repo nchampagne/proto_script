@@ -18,6 +18,6 @@ val settings = Seq(
   )
 )
 
-val root = (project in file(".")).enablePlugins(PlayScala)
+val root = (project in file("."))
   .enablePlugins(PlayScala)
   .settings(settings)
