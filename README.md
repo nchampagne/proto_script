@@ -12,7 +12,7 @@ POST http://localhost:9000/answer
 
 A client submits an answer for a question and includes the necessary validation logic in the payload.
 
-Valid request body - both ```heightInFeet``` and ```heightInInches``` are within range.
+##### Valid request body - both ```heightInFeet``` and ```heightInInches``` are within range.
 
 ```json
 [
@@ -34,7 +34,7 @@ Valid request body - both ```heightInFeet``` and ```heightInInches``` are within
 ]
 ```
 
-Response
+##### Response
 
 ```json
 {
@@ -55,7 +55,7 @@ Response
 }
 ```
 
-Invalid request body
+##### Invalid request body
 
 ```json
 [
@@ -77,7 +77,7 @@ Invalid request body
 ]
 ```
 
-Response
+##### Response
 
 ```json
 {

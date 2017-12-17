@@ -62,7 +62,7 @@ class ScriptEngine {
     }
     // Execute
     engine.eval(js, context)
-    // Return the context after evaluation
+    // Return the result after evaluation
     context.getAttribute("result").asInstanceOf[A]
   }
 }
