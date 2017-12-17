@@ -10,6 +10,10 @@ sbt compile run
 POST http://localhost:9000/answer
 ```
 
+```
+Content-Type -> application/json
+```
+
 A client submits an answer for a question and includes the necessary validation logic in the payload.
 
 ##### Valid request body - both ```heightInFeet``` and ```heightInInches``` are within range.
